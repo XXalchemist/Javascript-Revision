@@ -108,11 +108,13 @@ _Comments are used for describing our code._
 - **Short hand notation** is used for assigning values.
 - **Template string** is used for formatting string.
 <br>_Syntax_ : 
+
 ```JS
 `Sequence of characters ${variable_name}`
 ```
 - **Ternary operator** is used to shortend conditional statement.
 <br>_Syntax_ : 
+
 ```JS
 Conditional statement ? code blocks if true : code blocks if false or else code blocks   
 ```
@@ -154,4 +156,26 @@ console.log(age=='25') //loose comparision
 //Strict comparision
 console.log(age===25) 
 console.log(age==='25')
+```
+## 7. Type Conversion
+
+_It is used to convert one datatype to another if possible._
+<br>Examples :-
+
+```JS
+let score = '100'
+let check = True
+console.log(score)
+
+//Type conversion to number
+score = Number(score)
+console.log(score)
+
+//Type conversion to boolean
+check = Boolean(check)
+console.log(check)
+
+//Type conversion to string
+score = String(score)
+console.log(score)
 ```
