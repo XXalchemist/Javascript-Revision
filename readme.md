@@ -139,3 +139,19 @@ console.log(b)
    let pass = true
    pass ? 'gate open' : 'gate closed'
 ```
+
+## 6.  Loose vs Strict Comparison
+
+**Loose comparison** : _Doesn't type check and denoted by `==`_
+
+**Strict Comparision**: _Does type check and denoted by `===`_
+
+```JS
+let age = 25
+
+console.log(age=='25') //loose comparision
+
+//Strict comparision
+console.log(age===25) 
+console.log(age==='25')
+```
