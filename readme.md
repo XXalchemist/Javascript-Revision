@@ -27,7 +27,7 @@
 |22.| Objects and Classes in JS |
 |23.| More ES6 JS Features (like spread, rest etc) and Modern Feature Support | 
 
-##  JavaScript
+## 1. JavaScript
 
 **JavaScript** often abbreviated as **JS**, is a programming language that confirms to the **ECMAScript** specification.JavaScript is :-
 
@@ -38,7 +38,7 @@
    
 _It has curly-bracket syntax, prototype-based object-orientation, and first-class functions._
 
-## Adding JS to the HTML file
+## 2. Adding JS to the HTML file
 
 ### Internal
 
@@ -59,8 +59,7 @@ _When JS code is written in different file._
 </script>
 ```
 
-
-## JS Datatypes
+## 3. JS Datatypes
 
 - *Numbers* : To describe any numbers.
 - *String*  : To describe any sequence of characters.
@@ -80,7 +79,7 @@ let symbolOne = Symbol()       // Symbol
 ```
 `git checkout JS_Datatypes //includes more examples in index.html`
 
-## Variables, Constants, NAN and Comments
+## 4. Variables, Constants, NAN and Comments
 
 ### Variables and Constants
 
@@ -104,3 +103,39 @@ _Comments are used for describing our code._
 
 >In JS **NaN** stands for **Not a Number**.
 
+## 5. Short hand Notation, Ternary operator and Template string
+
+- **Short hand notation** is used for assigning values.
+- **Template string** is used for formatting string.
+<br>_Syntax_ : 
+```JS
+`Sequence of characters ${variable_name}`
+```
+- **Ternary operator** is used to shortend conditional statement.
+<br>_Syntax_ : 
+```JS
+Conditional statement ? code blocks if true : code blocks if false or else code blocks   
+```
+>Some Examples :-
+```JS
+// Short hand notation
+
+/* +=, *=, /=, %= 
+   eg. a+=1 is a = a+1
+*/
+
+let a = 5, b = 5
+a+=1
+console.log(a)
+b = b+1
+console.log(b)
+
+// Template string
+   let name = 'Narayan'
+   let greet = `My name is ${name} and hello.`
+   console.log(greet)
+
+// Ternary Operator
+   let pass = true
+   pass ? 'gate open' : 'gate closed'
+```
