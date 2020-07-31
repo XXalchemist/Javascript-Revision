@@ -37,3 +37,24 @@
 - Dynamic typing
    
 _It has curly-bracket syntax, prototype-based object-orientation, and first-class functions._
+
+## Adding JS to the HTML file
+
+### Internal
+
+_To write JS code in same HTML file._
+
+```HTML
+<script>
+    code blocks..
+</script>
+```
+
+### External
+
+_When JS code is written in different file._
+
+```HTML
+<script src = 'JS file location with name eg. /a.js'>
+</script>
+```
