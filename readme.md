@@ -1,9 +1,9 @@
 # Javascript Revision
 
-## Index ##
+##           Index                               ##
 |**Sr. No**| **Topic Name**|
 |---|       ---            | 
-|1. | Web server, Javascript                      |
+|1. | Javascript                      |
 |2. | Adding JS to the HTML                       |
 |3. | Javascript datatypes                        |
 |4. | Variables, Constants, NAN and Comments      |
@@ -27,4 +27,13 @@
 |22.| Objects and Classes in JS |
 |23.| More ES6 JS Features (like spread, rest etc) and Modern Feature Support | 
 
- 
+##  JavaScript
+
+**JavaScript** often abbreviated as **JS**, is a programming language that confirms to the **ECMAScript** specification.JavaScript is :-
+
+- High-level
+- Just-in-time compiled
+- Multi-paradigm
+- Dynamic typing
+   
+_It has curly-bracket syntax, prototype-based object-orientation, and first-class functions._
