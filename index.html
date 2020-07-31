@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statement, Switch, Loops</title>
+</head>
+<body>
+    
+    <script>
+        let names = ['Abc', 'Rohan', 'Punit']
+        num = 20
+
+        // Conditional Statement
+        console.log('conditional statement ')
+        if (num < 20){
+            console.log('num is less than 20')
+        }
+        else if (num === 20){
+            console.log('num is 20')
+
+        }
+        else{
+            console.log('num is greater than 20')
+        }
+        
+        // while loop
+        console.log('while loop ')
+        while(num > 0){
+            console.log(num)
+            num--
+        }
+
+        // do while loop
+        console.log('do while loop ')
+        do{
+            console.log(num)
+        }
+        while(num > 0){
+            console.log(num)
+        }
+
+        // for loop
+        console.log('for loop ')
+        for (let i = 0; i < 10; i++ ){
+            console.log(i)
+        }
+
+        // for in/of loop
+
+        console.log('for in/of loop ')
+        for (let name in names){
+            console.log(name)
+
+        }
+
+        // forEach loop
+        console.log('forEach loop ')
+        names.forEach(name => console.log(name))
+
+        // switch
+
+        let choice = 3
+        console.log('switch ')
+        switch(choice){
+            case 1: console.log(choice-2)
+            break
+            case 2: console.log(choice-1)
+            break
+            case 3: console.log(choice)
+            break
+            default: console.log('This is default statement.')
+
+        }
+
+        
+    </script>
+</body>
+</html>
