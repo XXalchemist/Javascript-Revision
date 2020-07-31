@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Datatypes</title>
+</head>
+<body>
+    
+    <script>
+        let age = 10
+        let name = 'abc'
+        let book_obj = {name: 'xyz', year: 2020}
+        let checkFlag = true
+
+        // Symbols : used to differentiate variables
+        
+        const sym1 = Symbol('identifier')
+        console.log(sym1)
+
+        const sym2 = Symbol('identifier')
+
+        console.log(sym1 === sym2)
+
+        const k1 = Symbol()
+        const k2 = Symbol()
+
+        myObj = {}
+        myObj[k1] = 'abc'
+        myObj[k2] = 'def'
+
+        console.log(myObj[k2])
+
+        // myObj.k2 will generate error as it is same as myObj['k2']
+
+        // Symbols are ignored in for in loops
+        for (let key in myObj){
+            console.log(key,myObj[key])
+
+        }
+
+        JSON.stringify(myObj) // also ignores the symbols
+        console.log(myObj)
+
+
+
+    </script>
+</body>
+</html>

@@ -58,6 +58,27 @@ _When JS code is written in different file._
 <script src = 'JS file location with name eg. /a.js'>
 </script>
 ```
+
+## JS Datatypes
+
+- *Numbers* : To describe any numbers.
+- *String*  : To describe any sequence of characters.
+- *Boolean* : To describe True or False.
+- *Null*    : Explicity set a variable with no value.
+- *Undefined*: For Variables that have not yet been defined.
+- *Object*   : To describe real world objects.
+- *Symbol*   : To uniquely identify objects.
+
+```JS
+let age = 21;                   // Number
+let lastName = "Krishna";       // String
+let fullName = {firstName:"Narayan", lastName:"Krishna"};           // Object
+let checkFlag = true           // Boolean
+let fav                        // Undefined
+let symbolOne = Symbol()       // Symbol
+```
+
+
 ## Variables, Constants, NAN and Comments
 
 ### Variables and Constants
@@ -81,4 +102,3 @@ _Comments are used for describing our code._
 ### NaN
 
 >In JS **NaN** stands for **Not a Number**.
-
