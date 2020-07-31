@@ -155,3 +155,25 @@ console.log(age=='25') //loose comparision
 console.log(age===25) 
 console.log(age==='25')
 ```
+## 7. Type Conversion
+
+_It is used to convert one datatype to another if possible._
+<br>Examples :-
+
+```JS
+let score = '100'
+let check = True
+console.log(score)
+
+//Type conversion to number
+score = Number(score)
+console.log(score)
+
+//Type conversion to boolean
+check = Boolean(check)
+console.log(check)
+
+//Type conversion to string
+score = String(score)
+console.log(score)
+```
