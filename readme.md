@@ -10,7 +10,7 @@
 |5. | Short hand Notation, Ternary operator and Template string | 
 |6. | Loose vs Strict Comparison|
 |7. | Type Conversion |
-|8. | Loops in JS |
+|8. | Conditional Statements , Switch, Loops in JS |
 |9. | Break and Continue |
 |10.| Functions and Methods |
 |11.| Arrow Function *=>* |
@@ -108,15 +108,18 @@ _Comments are used for describing our code._
 - **Short hand notation** is used for assigning values.
 - **Template string** is used for formatting string.
 <br>_Syntax_ : 
+
 ```JS
 `Sequence of characters ${variable_name}`
 ```
 - **Ternary operator** is used to shortend conditional statement.
 <br>_Syntax_ : 
+
 ```JS
 Conditional statement ? code blocks if true : code blocks if false or else code blocks   
 ```
 >Some Examples :-
+
 ```JS
 // Short hand notation
 
@@ -176,4 +179,77 @@ console.log(check)
 //Type conversion to string
 score = String(score)
 console.log(score)
+```
+## 8. Conditional Statements , Switch, Loops in JS 
+
+### Conditional Statements
+_Syntax_ :-
+
+```JS
+if (condition){
+    code block..
+}
+
+else if (condition){
+    code block..
+}
+
+else {
+    code block..
+}
+```
+### Switch in JS
+_Syntax_ :-
+
+```JS
+switch(variable_name){
+    case 1: code block..
+            break
+    case 2: code block..
+            break
+    .
+    .
+    .
+    case n: code block..
+            break
+
+    default: code block that always executes
+            break
+}
+```
+
+## Loops in JS
+_To iterate elements._
+_Syntax_ :-
+
+```JS
+// while loop : Iterate when condition is true
+
+while(condition){
+    code block..
+}
+
+// do while loop : Iterate at least one time wheither condition is true or not.
+
+do{
+    code block..
+}while(condition)
+
+// for loop
+
+for (let i = start_value; i<stop_value; i++ /* jump over value */ ){
+    code block..
+}
+
+// for of and for each loop
+
+// for of loop
+
+for (let element of arr){
+    console.log(element)
+}
+
+//forEach loop
+
+array_name.forEach(function_name /* Function that executes for every element in array_name */)
 ```
