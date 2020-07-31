@@ -58,3 +58,27 @@ _When JS code is written in different file._
 <script src = 'JS file location with name eg. /a.js'>
 </script>
 ```
+## Variables, Constants, NAN and Comments
+
+### Variables and Constants
+
+> var, let and const were used for storing variables.
+
+_According to ECMA script :-_
+- let   : for using variables
+- const : for using constant value
+
+### Comments
+
+_Comments are used for describing our code._
+
+```JS
+/* Multi line 
+   Comment */
+
+// Single Line Comment
+```
+### NaN
+
+>In JS **NaN** stands for **Not a Number**.
+
