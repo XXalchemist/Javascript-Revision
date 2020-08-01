@@ -263,3 +263,28 @@ array_name.forEach(function_name /* Function that executes for every element in 
 
 _Keywords used -_ `break` , `continue` 
 
+## 10. Functions and Methods
+
+### Functions 
+
+_Functions are used to use same block of code multiple times without writing whole code again and again._
+
+_Syntax :-_
+
+```JS
+// Function Declaration
+
+function function_name (){
+    // block of codes....
+}
+
+// Function Expression
+
+const function_name = function(){
+    // block of codes
+}
+
+// Function call
+
+function_name()
+```
