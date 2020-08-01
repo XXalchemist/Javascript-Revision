@@ -269,6 +269,7 @@ _Keywords used -_ `break` , `continue`
 
 _Functions are used to use same block of code multiple times without writing whole code again and again._
 
+_Methods are the functions used inside the class._
 _Syntax :-_
 
 ```JS
@@ -287,4 +288,6 @@ const function_name = function(){
 // Function call
 
 function_name()
+
+
 ```
