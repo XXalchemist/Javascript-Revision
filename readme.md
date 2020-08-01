@@ -253,3 +253,12 @@ for (let element of arr){
 
 array_name.forEach(function_name /* Function that executes for every element in array_name */)
 ```
+
+## 9. Break and Continue
+
+
+**Break :** Break out of the loop.
+
+**Continue :** Goes to the next iteration and also don't execute the code for ongoing iteration.
+
+_Keywords used -_ `break` , `continue`
