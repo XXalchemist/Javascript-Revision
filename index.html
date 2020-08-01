@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callback Functions</title>
+</head>
+<body>
+
+    <script>
+        
+
+        const myFunc = (callbackFunc) => {
+            let value = 50
+            callbackFunc(value)
+        }
+
+        myFunc(function(value){
+            console.log(value)
+        })
+
+        let people = ['Rohan', 'Rohit', 'Sachin']
+
+        people.forEach((person, index) => console.log(`index : ${index} and name : ${person}`))
+    </script>
+</body>
+</html>
