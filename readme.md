@@ -288,6 +288,17 @@ const function_name = function(){
 // Function call
 
 function_name()
+```
 
+## 11. Arrow Function *=>*
 
+_Arrow function is used to shortend function declaration._
+
+_Syntax :-_
+
+```JS
+const function_name = () => {
+    // code block
+    return value
+}
 ```
