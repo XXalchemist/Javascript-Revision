@@ -302,3 +302,20 @@ const function_name = () => {
     return value
 }
 ```
+
+## 12. Callback Methods
+
+
+_When function is pass as an argument to an another funtion then the function that is an argument is called callback function._
+
+_Syntax :-_
+
+```JS
+function callback_function_name(){
+    // block of code...
+}
+
+function function_name(callback_function_name){
+    callback_function_name(value)
+}
+```
