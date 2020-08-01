@@ -319,3 +319,13 @@ function function_name(callback_function_name){
     callback_function_name(value)
 }
 ```
+
+## 13. Date and Time object in JS
+
+_To use date and time in javascript._
+
+_Syntax :-_
+
+```JS
+const date_variable_name = new Date() // Date constructor
+```
