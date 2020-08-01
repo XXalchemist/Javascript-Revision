@@ -14,9 +14,9 @@
 |9. | Break and Continue |
 |10.| Functions and Methods |
 |11.| Arrow Function *=>* |
-|12.| ForEach and Callback Methods |
+|12.| Callback Methods |
 |13.| Date and Time object in JS |
-|14.| Array, Set, String and Symbols in JS |
+|14.| Object literals, Array, Set, String and Symbols in JS |
 |15.| DOM *(Document Object Manipulation)*|
 |16.| Regular Expression |
 |17.| Async JS |
@@ -83,7 +83,7 @@ let symbolOne = Symbol()       // Symbol
 
 ### Variables and Constants
 
-> var, let and const were used for storing variables.
+> var (block the use of block scope), let and const were used for storing variables.
 
 _According to ECMA script :-_
 - let   : for using variables
@@ -218,7 +218,7 @@ switch(variable_name){
 }
 ```
 
-## Loops in JS
+### Loops in JS
 _To iterate elements._
 _Syntax_ :-
 
@@ -253,3 +253,13 @@ for (let element of arr){
 
 array_name.forEach(function_name /* Function that executes for every element in array_name */)
 ```
+
+## 9. Break and Continue
+
+
+**Break :** Break out of the loop.
+
+**Continue :** Goes to the next iteration and also don't execute the code for ongoing iteration.
+
+_Keywords used -_ `break` , `continue` 
+
