@@ -16,7 +16,7 @@
 |11.| Arrow Function *=>* |
 |12.| Callback Methods |
 |13.| Date and Time object in JS |
-|14.| Object literals, Array, Set, String and Symbols in JS |
+|14.| Object literals, Array, Set, String and Map in JS |
 |15.| DOM *(Document Object Manipulation)*|
 |16.| Regular Expression |
 |17.| Async JS |
@@ -329,3 +329,103 @@ _Syntax :-_
 ```JS
 const date_variable_name = new Date() // Date constructor
 ```
+
+## 14. Object literals, Array, Set, String and Maps in JS
+
+### Object literals
+
+_Have Multiple Props (i.e multiple variables or functions)._
+
+_Syntax :-_
+
+```js
+let object_literal_name = {
+    prop_1 : '...';
+    prop_2 : '...';
+    .
+    .
+    .
+}
+
+// To access props from object literal
+object_literal_name.prop_1
+```
+
+### Array
+
+_Ordered collection of elements._
+
+_Syntax :-_
+
+```JS
+let array_name = []
+
+let array_name = new Array( /* no. of elements */ )
+
+// Some array methods
+
+array_name.length()
+array_name.pop()
+array_name.push()
+array_name.sort()
+array_name.reverse()
+array_name.map(function_name)
+```
+
+### String
+
+_Sequence of characters._
+
+_Syntax :-_
+
+```JS
+let string_name = ''
+
+// Some methods
+
+string_name.toUpperCase()
+string_name.trim()
+string_name.startswith()
+string_name.replace(s1, s2)
+string_name.slice()
+string_name.substr()
+string_name.indexOf()
+```
+
+### Set
+
+_Unordered collection of elements, O(1) time complexity._
+
+_Syntax :-_
+
+```JS
+let set_name = new Set()
+
+// Some methods
+
+set_name.has()
+set_name.add()
+set_name.size()
+set_name.delete()
+set_name.values()
+```
+### Map
+
+_Mix of Array and Set, Have keys and values also override similar keys._
+
+_Syntax :-_
+
+```JS
+let map_name = new Map()
+
+// Some methods
+
+map_name.get('key_name')
+map_name.set('key_name', value)
+map_name.size()
+map_name.delete('key_name')
+map_name.has('key_name')
+map_name.clear()
+map_name.entries()
+```
+
