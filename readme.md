@@ -423,7 +423,7 @@ let map_name = new Map()
 map_name.get('key_name')
 map_name.set('key_name', value)
 map_name.delete('key_name')
-map_name.size()
+map_name.size
 map_name.has('key_name')
 map_name.clear()
 map_name.entries()
