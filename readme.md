@@ -364,7 +364,7 @@ let array_name = new Array( /* no. of elements */ )
 
 // Some array methods
 
-array_name.length()
+array_name.length
 array_name.pop()
 array_name.push()
 array_name.sort()
@@ -385,7 +385,7 @@ let string_name = ''
 
 string_name.toUpperCase()
 string_name.trim()
-string_name.startswith()
+string_name.startsWith()
 string_name.replace(s1, s2)
 string_name.slice()
 string_name.substr()
@@ -405,7 +405,7 @@ let set_name = new Set()
 
 set_name.has()
 set_name.add()
-set_name.size()
+set_name.size
 set_name.delete()
 set_name.values()
 ```
