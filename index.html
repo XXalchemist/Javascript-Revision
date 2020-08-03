@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Literals, String, Arrays, Maps, Sets in JS</title>
+</head>
+<body>
+
+    
+    <script>
+        // Object Literal
+
+        let person = { 
+        name : 'Krishna',
+        age  : function(age){
+            console.log( 'Age is : '+age)
+        }
+        }
+        console.log('Object Literal')
+        console.log(person.name)
+        person.age(20)
+
+        // String
+        
+        let country = ' India is a good country.  '
+
+        
+        console.log('String')
+
+        console.log(country.toUpperCase())
+        console.log(country.toLowerCase())
+        console.log(country.startsWith('i'))
+        console.log(country.length)
+        console.log(country.replace('good','goood'))
+        console.log(country.indexOf('goood'))
+        console.log(country.slice(4,10))
+        console.log(country.trim())
+        console.log(country.charCodeAt(5))
+
+        // Array
+
+        let numbers = [1,3,2,4,5]
+
+        console.log('Arrays')
+        console.log(numbers.push(0))
+        console.log(numbers.length)
+        console.log(numbers.sort())
+        console.log(numbers.reverse())
+        console.log(numbers.map(num => num*num))
+
+        // Set
+
+        let unique_num = new Set()
+
+        console.log('Set')
+        console.log(unique_num.add(5))
+        console.log(unique_num.add(2))
+        console.log(unique_num.add(1))
+        console.log(unique_num.add(5))
+
+        console.log(unique_num.has(5))
+        console.log(unique_num.size)
+        console.log(unique_num.delete(5))
+        console.log(unique_num.values())
+
+        // Map
+
+        let dict = new Map()
+
+        console.log("Map")
+        console.log(dict.set('name','Krishna'))
+        console.log(dict.set('age',20))
+        console.log(dict.get('name'))
+        console.log(dict.delete('age'))
+        console.log(dict.has('age'))
+        console.log(dict.entries())
+        console.log(dict.clear())
+    </script>
+</body>
+</html>
