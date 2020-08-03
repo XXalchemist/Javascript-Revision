@@ -428,4 +428,22 @@ map_name.has('key_name')
 map_name.clear()
 map_name.entries()
 ```
+## 15. Document Object Manipulation
 
+- Main Part of webpage manipulation through JS.
+- Interaction with HTML through JS.
+- *"document"* object
+
+### Document Object Model
+
+![DOM](DOM.png)
+
+### Grabbing element through code
+
+```JS
+document.querySelector() // . represents class, # represents id 
+document.querySelectorAll()
+document.getElementById() // Single Element grab
+document.getElementByClassName() // Multiple items of same class grab
+document.getElementByTagName()
+```
