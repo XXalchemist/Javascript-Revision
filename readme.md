@@ -446,4 +446,27 @@ document.querySelectorAll()
 document.getElementById() // Single Element grab
 document.getElementByClassName() // Multiple items of same class grab
 document.getElementByTagName()
+
+element_name.innerText = ` `
+element_name.innerHTML = ` `
+element_name.setAttribute('style','color : green')
+element_name.getAttribute('attribute_name')
 ```
+### HTML Collection and Node list
+
+| HTML Collection | Node List |
+|---|---|
+|Collection of HTML elements | Collection of document nodes|
+|Can be access through name, id, index| Can be accesed by their index number|
+
+### Event handling
+
+_To add functionality to events that can be mouse or keyboard event._
+
+```JS
+.addEventListener('event', function())
+```
+**Window object** is global object and is defaultly used.
+
+
+
