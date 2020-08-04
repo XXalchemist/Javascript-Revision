@@ -6,14 +6,14 @@
     <title>Callback hell and fetch api</title>
 </head>
 <body>
-    
+   
     <script>
-        const getTodos = (resource, callback) =>{
+    const getTodos = (resource, callback) =>{
     const request = new XMLHttpRequest();
 
 
 
-request.addEventListener('readystatechange', ()=>{
+    request.addEventListener('readystatechange', ()=>{
     if (request.readyState == 4 && request.status === 200){
         const data = JSON.parse(request.responseText);
         callback(undefined, data);
@@ -39,6 +39,20 @@ getTodos('luigi.json', (err, data ) => {
         });
     });
 });
+
+// fetch data
+
+console.log('Fetch Data')
+
+fetch('luigi.json').then(response=>{
+    console.log('resolved data : ', response);
+    return response.json();
+}).then(data => {
+    console.log(data);
+}).catch((err) => {
+    console.log(err);
+});
+
     </script>
 </body>
 </html>
