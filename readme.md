@@ -598,4 +598,35 @@ xhr.onprogress = function_name // What to do when in progress
 xhr.onload = function_name // What to do when response is ready
 xhr.send() // send the request
 ```
+## 22. Callback functions and Fetch API
+
+### Callback Function 
+
+_Function passes or executes after completion of first function._
+
+**Callback Hell**, phenomenon that occurs due to nesting of callbacks. To avoid it we use **promises** in JS.
+
+### Fetch API
+
+Three steps :-
+
+- fetch data
+- take response promise
+- access data
+
+_Syntax :-_
+
+```JS
+fetch(location_of_resource) // return promise
+.then((response)=>{
+    console.log('resolved_response')
+    return response.json()
+})
+.then(data=>{
+    console.log(data)
+})
+.catch(error=>{
+    console.log(error)
+})
+```
 
