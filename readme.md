@@ -630,3 +630,21 @@ fetch(location_of_resource) // return promise
 })
 ```
 
+## 23. Promises and Async and await
+
+### Promises returns :-
+- pending
+- resolved
+- rejected
+  
+### Async and Await
+
+_Gives more readabilty to async JS code._
+
+_Syntax :-_
+
+```JS
+async function function_name(){
+    const function_name_1 = await fetch('')
+}
+```
