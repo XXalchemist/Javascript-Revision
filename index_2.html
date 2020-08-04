@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async and await</title>
+</head>
+<body>
+    <script>
+        // Async and await
+
+    console.log('Async and await')
+
+    async function git(){
+        console.log('inside git')
+        const response = await fetch('https://api.github.com/users')
+        console.log('Before response')
+        const users = await response.json()
+        console.log('Users resolved')
+        return users
+    }
+    console.log('Before calling git')
+    let a = git()
+    console.log('After calling git')
+    console.log(a)
+
+    a.then(data=>console.log(data))
+    console.log('Last line of js')
+    </script>
+</body>
+</html>
