@@ -24,8 +24,8 @@
 |19.| Objects and Classes in JS |
 |20.| Local Storage |
 |21.| Async JS |
-|22.| HTTP requests, Callback functions Fetch API|
-|23.| Async and Await |
+|22.| Callback functions and Fetch API|
+|23.| Promises and Async and Await |
 
 
 
@@ -575,3 +575,27 @@ localStorage.removeItem('key_name')
 
 localStorage.clear() // to delete all file
 ```
+
+## 21. Async JS
+
+_Asynchronous model allows multiple things to happen at the same time while in synchronous model things happens one at a time._
+
+**AJAX**
+- Asynchronous Javascript And XML
+- No page reload/refresh
+- XML is replaced by JSOn
+  
+**How AJAX Works ?**
+
+_AJAX uses XMLHttpRequest object to accomplish no page reload. Data can be transferred in any format http is not neccesary._
+
+_Working of AJAX :-_
+
+```JS
+const xhr = new XMLHttpRequest()     // Create an object
+xhr.open('GET/POST','file_name',true)// Open the object
+xhr.onprogress = function_name // What to do when in progress
+xhr.onload = function_name // What to do when response is ready
+xhr.send() // send the request
+```
+
