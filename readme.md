@@ -468,5 +468,18 @@ _To add functionality to events that can be mouse or keyboard event._
 ```
 **Window object** is global object and is defaultly used.
 
+## 16. Regular Expression
+
+_It is used for string pattern matching._
+
+_Example :-_
+
+```JS
+let test_ex = 'Krishna'
+const pattern = /^[a-z]{6,}$/ // /-> start and end; ^-> start; [a-z]-> a to z;{ }->length; $->end;
+
+console.log(pattern.test(test_ex))
+```
+
 
 
