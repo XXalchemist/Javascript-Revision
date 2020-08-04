@@ -19,7 +19,7 @@
 |14.| Object literals, Array, Set, String and Map in JS |
 |15.| DOM *(Document Object Manipulation)*|
 |16.| Regular Expression |
-|17.| More ES6 JS Features (like spread, rest etc) and Modern Feature |
+|17.| More ES6 JS Features (like spread, rest etc) |
 |18.| Throwing and Catching Error |
 |19.| Objects and Classes in JS |
 |20.| Local Storage|
@@ -491,6 +491,6 @@ console.log(pattern.test(test_ex))
 _Syntax :-_
 
 ```JS
-...variable_name // rest and spread
+...variable_name // rest : converts from group of numbers to array and spread : converts from array to group of numbers
 
 ```
