@@ -492,5 +492,25 @@ _Syntax :-_
 
 ```JS
 ...variable_name // rest : converts from group of numbers to array and spread : converts from array to group of numbers
+```
 
+## 18. Throwing and Catching Error
+
+_Error handling._
+
+_Syntax :-_
+
+```JS
+try {
+    // block of code
+}
+throw new Error() 
+
+catch(err){
+    // Error handling
+}
+
+finally{
+    // block of code executes regardless of try/catch. 
+}
 ```
