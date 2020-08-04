@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+</head>
+<body>
+    
+    <script>
+        // Storing data
+        localStorage.setItem('name','Krishna')
+        localStorage.setItem('PL','JS')
+
+        // Getting data
+        let name = localStorage.getItem('name')
+        alert(name)
+
+        // Updatng data
+        localStorage.setItem('name','Narayan')
+        name = localStorage.getItem('name')
+        alert(name)
+
+        // Deleting data
+        localStorage.removeItem('name')
+        localStorage.clear()
+    </script>
+</body>
+</html>
