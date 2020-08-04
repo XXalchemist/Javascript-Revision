@@ -514,3 +514,36 @@ finally{
     // block of code executes regardless of try/catch. 
 }
 ```
+
+## 19. Objects and Classes in JS
+
+_Implementation of real world objects and their structure/blueprint. It is a modern JS feature and is working along with prototypes to provide OOPS concept._
+
+_Syntax :-_
+
+```JS
+
+// class
+
+class ClassName{
+    constructor(attributes){
+        // Initialization of class
+        this.attributes = attributes
+    }
+
+}
+
+// object
+
+let object_name = new ClassName()
+// the 'new' keyword creates a new empty object {} and binds the value of 'this' to the new empty object.
+
+// Subclasses and Inheritance
+
+class SubClassName extends ParentClassName{
+    constructor(attributes,inherited_attributes){
+        super(inherited_attributes)
+        this.attributes = attributes
+    }
+}
+```
