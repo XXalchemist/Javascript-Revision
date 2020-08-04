@@ -19,13 +19,15 @@
 |14.| Object literals, Array, Set, String and Map in JS |
 |15.| DOM *(Document Object Manipulation)*|
 |16.| Regular Expression |
-|17.| Async JS |
-|18.| HTTP requests, Callback functions Fetch API|
-|19.| Async and Await |
-|20.| Throwing and Catching Error |
-|21.| Local Storage|
-|22.| Objects and Classes in JS |
-|23.| More ES6 JS Features (like spread, rest etc) and Modern Feature Support | 
+|17.| More ES6 JS Features (like spread, rest etc) and Modern Feature |
+|18.| Throwing and Catching Error |
+|19.| Objects and Classes in JS |
+|20.| Local Storage|
+|21.| Async JS |
+|22.| HTTP requests, Callback functions Fetch API|
+|23.| Async and Await |
+
+
 
 ## 1. JavaScript
 
