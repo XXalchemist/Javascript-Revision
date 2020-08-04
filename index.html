@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async JS</title>
+</head>
+<body>
+    <h3> AJAX </h3>
+    <button id = 'button1'>Fetch</button>
+    <script>
+        
+        // Get XHR
+
+        let fBtn = document.querySelector('#button1')
+
+        function buttonpress(){
+            console.log('You have clicked')
+            const xhr = new XMLHttpRequest()
+            xhr.open('GET','async.json',true)
+            xhr.onprogress= ()=>console.log('on progress')
+            xhr.onload = ()=>console.log(xhr.responseText)
+            xhr.send()
+        }
+        fBtn.addEventListener('click',buttonpress )
+    </script>
+</body>
+</html>
