@@ -1,0 +1,6 @@
+[
+    {"text" : "play mario_cartX", "author": "NinjaX", "points" : 50},
+    {"text" : "play mario_cartY", "author": "NinjaY", "points" : 30},
+    {"text" : "play mario_cartZ", "author": "NinjaZ", "points" : 10},
+    {"copyright": "mario"}
+]
