@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes and objects</title>
+</head>
+<body>
+    
+    <script>
+        class Employee{
+            constructor(givenName, givenDivision){
+                this.givenName = givenName
+                this.givenDivision = givenDivision
+            }
+            bio(){
+                return `I am ${this.givenName} and working on ${this.givenDivision} division .`
+            }
+            // static functions don't need class attributes
+            static add(a,b){
+                return a+b
+            }
+        }
+
+        // Inheritance Example
+
+        class Programmer extends Employee{
+            
+            constructor(givenName,givenDivision,programmingLanguage){
+                super(givenName,givenDivision)
+                this.programmingLanguage = programmingLanguage
+            }
+
+            favouriteLanguage(){
+                return 'Python'
+            }
+        }
+
+        // Objects
+
+        rohan = new Employee('Rohan','I.T')
+        shyam = new Programmer('Shyam','A.I',['Python','R'])
+
+        try{
+            console.log(rohan.add(5,6))
+            }
+        catch(err){
+            console.log(Employee.add(5,6))
+        }
+
+        console.log(rohan.bio())
+
+        console.log(shyam.bio())
+        console.log(shyam.favouriteLanguage())
+    </script>
+</body>
+</html>
