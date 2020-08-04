@@ -483,5 +483,14 @@ const pattern = /^[a-z]{6,}$/ // /-> start and end; ^-> start; [a-z]-> a to z;{ 
 console.log(pattern.test(test_ex))
 ```
 
+## 17. More ES6 JS Features (like spread, rest )
 
+- `rest` is used for packing or bundling of multiple variables.
+- `spread` is used for unpacking ir unbundling of multiple variables.
 
+_Syntax :-_
+
+```JS
+...variable_name // rest and spread
+
+```
