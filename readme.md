@@ -22,7 +22,7 @@
 |17.| More ES6 JS Features (like spread, rest etc) |
 |18.| Throwing and Catching Error |
 |19.| Objects and Classes in JS |
-|20.| Local Storage|
+|20.| Local Storage |
 |21.| Async JS |
 |22.| HTTP requests, Callback functions Fetch API|
 |23.| Async and Await |
@@ -546,4 +546,32 @@ class SubClassName extends ParentClassName{
         this.attributes = attributes
     }
 }
+```
+
+## 20. Local Storage
+
+_It provide local storage to store and retrive data from the browser._
+
+```JS
+// Store data in local storage
+
+localStorage.setItem('key_of_the_object','value_of_the_object')
+
+// Get data from local storage
+
+let variable_name = localStorage.getItem('key_of_the_object')
+
+// Updating the data
+
+localStorage.setItem('key_name','value')
+
+// or
+
+localStorage.key_name = 'value'
+
+// Deleting data
+
+localStorage.removeItem('key_name')
+
+localStorage.clear() // to delete all file
 ```
